@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes projets</title>
+    <link rel="stylesheet" type="text/css" href="exemple.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-content">
+            <nav>
+                <ul>
+                    <li><a href="projetp.html"><b>Projets personnels</b></a></li>
+                    <li><a href="exemple.html"><b>Projets scolaires</b></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>MES PROJETS</h1>
+        <p class="intro">Bienvenue dans cette section dédiée à <b>mes projets scolaires</b> !</p>
+
+        <section>
+            <img src="images/logo optique.webp" alt="Logo Optique"> 
+            <div>
+                <h2>Réalisation d'un site web à partir d'une maquette</h2>
+                <p>Ce projet était un travail pratique réalisé en classe, où l'objectif était de concevoir un site web
+                en suivant une maquette fournie sous forme d'image. Ce défi m'a permis de mettre en pratique mes 
+                compétences en HTML, CSS et JavaScript, tout en respectant les contraintes de design et d'ergonomie 
+                imposées par la maquette. Le résultat final est une reproduction fidèle du visuel original, tout en 
+                assurant une navigation fluide et une compatibilité avec différents navigateurs.</p>
+
+                <label for="image-select"><b>Voir la maquette :</b></label>
+                <select id="image-select" onchange="window.location.href=this.value;">
+                    <option value="">Sélectionner une Page</option>
+                    <option value="images/accueil.png">Page 1</option>
+                    <option value="images/optique.png">Page 2</option>
+                </select>
+
+                <p><b>Date de réalisation :</b> septembre 2024</p> 
+
+                <a class="button" href="https://rin4d.github.io/TP-optique/" target="_blank">Voir le site</a> <!-- Ajout de target="_blank" pour ouvrir le lien dans un nouvel onglet -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="logos">
+        <a href="https://github.com/rin4d" target="_blank">
+            <img src="images/github.png" alt="Logo Instagram">
+        </a>
+    </footer>
+</body>
+</html>
